@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		095912F727408F11FC52D929 /* libPods-KLConfirmOrder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E2A3CDE96389B6795A598B9 /* libPods-KLConfirmOrder.a */; };
+		2BDDB61AA4F2B606C8EF7EC4 /* libPods-KLConfirmOrderUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27AAEFD4BDD12095EB3C82F9 /* libPods-KLConfirmOrderUITests.a */; };
+		86F2BB95222009BCF06AFFD9 /* libPods-KLConfirmOrderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EC0AB7743A662A63EBD201B /* libPods-KLConfirmOrderTests.a */; };
 		DF1F93341E150F840099AB0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1F93331E150F840099AB0C /* main.m */; };
 		DF1F93371E150F840099AB0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1F93361E150F840099AB0C /* AppDelegate.m */; };
 		DF1F933A1E150F840099AB0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1F93391E150F840099AB0C /* ViewController.m */; };
@@ -15,6 +18,8 @@
 		DF1F93421E150F840099AB0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF1F93401E150F840099AB0C /* LaunchScreen.storyboard */; };
 		DF1F934D1E150F840099AB0C /* KLConfirmOrderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1F934C1E150F840099AB0C /* KLConfirmOrderTests.m */; };
 		DF1F93581E150F840099AB0C /* KLConfirmOrderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1F93571E150F840099AB0C /* KLConfirmOrderUITests.m */; };
+		DF1F936B1E1510ED0099AB0C /* KLConfirmOrderServiceProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1F936A1E1510ED0099AB0C /* KLConfirmOrderServiceProvider.m */; };
+		DF1F936E1E1511010099AB0C /* KLConfirmOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1F936D1E1511010099AB0C /* KLConfirmOrderViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16314CA682EE07E8B9F78CE4 /* Pods-KLConfirmOrderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLConfirmOrderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KLConfirmOrderTests/Pods-KLConfirmOrderTests.release.xcconfig"; sourceTree = "<group>"; };
+		20334C06E2C5227A21329C7A /* Pods-KLConfirmOrderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLConfirmOrderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KLConfirmOrderUITests/Pods-KLConfirmOrderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		27AAEFD4BDD12095EB3C82F9 /* libPods-KLConfirmOrderUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KLConfirmOrderUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D148E211436F087E147CEF0 /* Pods-KLConfirmOrder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLConfirmOrder.release.xcconfig"; path = "Pods/Target Support Files/Pods-KLConfirmOrder/Pods-KLConfirmOrder.release.xcconfig"; sourceTree = "<group>"; };
+		3E2A3CDE96389B6795A598B9 /* libPods-KLConfirmOrder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KLConfirmOrder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EC0AB7743A662A63EBD201B /* libPods-KLConfirmOrderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KLConfirmOrderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6707A113AA289D7FD455DE95 /* Pods-KLConfirmOrder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLConfirmOrder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KLConfirmOrder/Pods-KLConfirmOrder.debug.xcconfig"; sourceTree = "<group>"; };
+		B35430EB22877F0A3AF9C0AC /* Pods-KLConfirmOrderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLConfirmOrderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KLConfirmOrderTests/Pods-KLConfirmOrderTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DF1F932F1E150F840099AB0C /* KLConfirmOrder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLConfirmOrder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF1F93331E150F840099AB0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DF1F93351E150F840099AB0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +64,11 @@
 		DF1F93531E150F840099AB0C /* KLConfirmOrderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLConfirmOrderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF1F93571E150F840099AB0C /* KLConfirmOrderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLConfirmOrderUITests.m; sourceTree = "<group>"; };
 		DF1F93591E150F840099AB0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF1F93691E1510ED0099AB0C /* KLConfirmOrderServiceProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLConfirmOrderServiceProvider.h; sourceTree = "<group>"; };
+		DF1F936A1E1510ED0099AB0C /* KLConfirmOrderServiceProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLConfirmOrderServiceProvider.m; sourceTree = "<group>"; };
+		DF1F936C1E1511010099AB0C /* KLConfirmOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLConfirmOrderViewController.h; sourceTree = "<group>"; };
+		DF1F936D1E1511010099AB0C /* KLConfirmOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLConfirmOrderViewController.m; sourceTree = "<group>"; };
+		F8A839448E2069066F46A578 /* Pods-KLConfirmOrderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLConfirmOrderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KLConfirmOrderUITests/Pods-KLConfirmOrderUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				095912F727408F11FC52D929 /* libPods-KLConfirmOrder.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86F2BB95222009BCF06AFFD9 /* libPods-KLConfirmOrderTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +92,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BDDB61AA4F2B606C8EF7EC4 /* libPods-KLConfirmOrderUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35DA4DB6CC7C468525431AEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E2A3CDE96389B6795A598B9 /* libPods-KLConfirmOrder.a */,
+				3EC0AB7743A662A63EBD201B /* libPods-KLConfirmOrderTests.a */,
+				27AAEFD4BDD12095EB3C82F9 /* libPods-KLConfirmOrderUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3AB9106B56F22E7CD3A4A90E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6707A113AA289D7FD455DE95 /* Pods-KLConfirmOrder.debug.xcconfig */,
+				2D148E211436F087E147CEF0 /* Pods-KLConfirmOrder.release.xcconfig */,
+				B35430EB22877F0A3AF9C0AC /* Pods-KLConfirmOrderTests.debug.xcconfig */,
+				16314CA682EE07E8B9F78CE4 /* Pods-KLConfirmOrderTests.release.xcconfig */,
+				F8A839448E2069066F46A578 /* Pods-KLConfirmOrderUITests.debug.xcconfig */,
+				20334C06E2C5227A21329C7A /* Pods-KLConfirmOrderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DF1F93261E150F840099AB0C = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +129,8 @@
 				DF1F934B1E150F840099AB0C /* KLConfirmOrderTests */,
 				DF1F93561E150F840099AB0C /* KLConfirmOrderUITests */,
 				DF1F93301E150F840099AB0C /* Products */,
+				3AB9106B56F22E7CD3A4A90E /* Pods */,
+				35DA4DB6CC7C468525431AEB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +147,7 @@
 		DF1F93311E150F840099AB0C /* KLConfirmOrder */ = {
 			isa = PBXGroup;
 			children = (
+				DF1F93651E150FA70099AB0C /* Classes */,
 				DF1F93351E150F840099AB0C /* AppDelegate.h */,
 				DF1F93361E150F840099AB0C /* AppDelegate.m */,
 				DF1F93381E150F840099AB0C /* ViewController.h */,
@@ -140,6 +187,17 @@
 			path = KLConfirmOrderUITests;
 			sourceTree = "<group>";
 		};
+		DF1F93651E150FA70099AB0C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DF1F93691E1510ED0099AB0C /* KLConfirmOrderServiceProvider.h */,
+				DF1F936A1E1510ED0099AB0C /* KLConfirmOrderServiceProvider.m */,
+				DF1F936C1E1511010099AB0C /* KLConfirmOrderViewController.h */,
+				DF1F936D1E1511010099AB0C /* KLConfirmOrderViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF1F935C1E150F840099AB0C /* Build configuration list for PBXNativeTarget "KLConfirmOrder" */;
 			buildPhases = (
+				0B0EC07AC2FFA86A8158A2C2 /* [CP] Check Pods Manifest.lock */,
 				DF1F932B1E150F840099AB0C /* Sources */,
 				DF1F932C1E150F840099AB0C /* Frameworks */,
 				DF1F932D1E150F840099AB0C /* Resources */,
+				74D0087EDE0BC7B08487A764 /* [CP] Embed Pods Frameworks */,
+				2DD7091FCAD8EEA96DF2ECE0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF1F935F1E150F840099AB0C /* Build configuration list for PBXNativeTarget "KLConfirmOrderTests" */;
 			buildPhases = (
+				694AF9119C44F3619B7EDB44 /* [CP] Check Pods Manifest.lock */,
 				DF1F93441E150F840099AB0C /* Sources */,
 				DF1F93451E150F840099AB0C /* Frameworks */,
 				DF1F93461E150F840099AB0C /* Resources */,
+				3B03707118C91549038CFD3A /* [CP] Embed Pods Frameworks */,
+				02D42BC21E092874527AB5BC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF1F93621E150F840099AB0C /* Build configuration list for PBXNativeTarget "KLConfirmOrderUITests" */;
 			buildPhases = (
+				CE54DCEF3490311F3B3C481C /* [CP] Check Pods Manifest.lock */,
 				DF1F934F1E150F840099AB0C /* Sources */,
 				DF1F93501E150F840099AB0C /* Frameworks */,
 				DF1F93511E150F840099AB0C /* Resources */,
+				91EE00DB573CA67310F9A96A /* [CP] Embed Pods Frameworks */,
+				6295A9917A499D6FC1305DF0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,14 +338,154 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02D42BC21E092874527AB5BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KLConfirmOrderTests/Pods-KLConfirmOrderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0B0EC07AC2FFA86A8158A2C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2DD7091FCAD8EEA96DF2ECE0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KLConfirmOrder/Pods-KLConfirmOrder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B03707118C91549038CFD3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KLConfirmOrderTests/Pods-KLConfirmOrderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6295A9917A499D6FC1305DF0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KLConfirmOrderUITests/Pods-KLConfirmOrderUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		694AF9119C44F3619B7EDB44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		74D0087EDE0BC7B08487A764 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KLConfirmOrder/Pods-KLConfirmOrder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91EE00DB573CA67310F9A96A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KLConfirmOrderUITests/Pods-KLConfirmOrderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE54DCEF3490311F3B3C481C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DF1F932B1E150F840099AB0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF1F936E1E1511010099AB0C /* KLConfirmOrderViewController.m in Sources */,
 				DF1F933A1E150F840099AB0C /* ViewController.m in Sources */,
 				DF1F93371E150F840099AB0C /* AppDelegate.m in Sources */,
 				DF1F93341E150F840099AB0C /* main.m in Sources */,
+				DF1F936B1E1510ED0099AB0C /* KLConfirmOrderServiceProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +630,7 @@
 		};
 		DF1F935D1E150F840099AB0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6707A113AA289D7FD455DE95 /* Pods-KLConfirmOrder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 53G8WC3SG7;
@@ -435,6 +643,7 @@
 		};
 		DF1F935E1E150F840099AB0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D148E211436F087E147CEF0 /* Pods-KLConfirmOrder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 53G8WC3SG7;
@@ -447,6 +656,7 @@
 		};
 		DF1F93601E150F840099AB0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B35430EB22877F0A3AF9C0AC /* Pods-KLConfirmOrderTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 53G8WC3SG7;
@@ -460,6 +670,7 @@
 		};
 		DF1F93611E150F840099AB0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16314CA682EE07E8B9F78CE4 /* Pods-KLConfirmOrderTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 53G8WC3SG7;
@@ -473,6 +684,7 @@
 		};
 		DF1F93631E150F840099AB0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8A839448E2069066F46A578 /* Pods-KLConfirmOrderUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 53G8WC3SG7;
 				INFOPLIST_FILE = KLConfirmOrderUITests/Info.plist;
@@ -485,6 +697,7 @@
 		};
 		DF1F93641E150F840099AB0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20334C06E2C5227A21329C7A /* Pods-KLConfirmOrderUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 53G8WC3SG7;
 				INFOPLIST_FILE = KLConfirmOrderUITests/Info.plist;

@@ -1,0 +1,15 @@
+PODS:
+  - KLConfirmOrderServiceProtocol (0.0.2)
+  - KLProtocolManager (0.0.4)
+
+DEPENDENCIES:
+  - KLConfirmOrderServiceProtocol
+  - KLProtocolManager
+
+SPEC CHECKSUMS:
+  KLConfirmOrderServiceProtocol: 98823eca0ef3677c7eec811906b12a00db06b8c6
+  KLProtocolManager: 392d91970a5c3e76320432ca59d64ae816958b8c
+
+PODFILE CHECKSUM: 7f11f66443b98341c107523e9387ad05e146fd79
+
+COCOAPODS: 1.1.1
